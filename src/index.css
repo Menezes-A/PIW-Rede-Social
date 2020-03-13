@@ -1,0 +1,62 @@
+/* css para o header do index */
+.navbar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgb(20, 18, 15);
+  display: block;
+  color: white;
+  padding: 20px 16px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.butao {
+  color: white;
+  text-align: left;
+  padding: 16px 16px;
+  text-decoration: none;
+  background-color: rgb(247, 179, 167);
+  margin-left: 10px;
+  font-size: 15px;
+ 
+}
+
+.NomeUsuario {
+  padding: 10px 15px;
+  background-color: rgb(250, 104, 104);
+  float: right;
+  border-bottom: solid 2px ;
+}
+
+.Galeria {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; /* para poder quebrar */ 
+  justify-content: space-evenly;
+  align-content: stretch; /* posicionamento do conteudo completo */ 
+  text-align: center;
+}
+
+p{
+  font-size: 10px;
+  color:wheat;
+}
+
+.Usuario{
+ color: wheat;
+}
+
+.borda{
+  border-style: groove;
+  border-radius: 8px;
+  border-color: lightcoral;
+  margin: 25px 50px 75px 100px;
+}
+
+
+
+
+
+
+
+
